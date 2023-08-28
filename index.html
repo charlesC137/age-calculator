@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>
+      Frontend Mentor | Age calculator app
+    </title>
+
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <main>
+      <p class="notification"></p>
+      <section id="input-section">
+        <div>
+          <p>DAY</p>
+          <input id="input-day">
+        </div>
+
+        <div>
+          <p>MONTH</p>
+          <input id="input-month">
+        </div>
+
+        <div>
+          <p>YEAR</p>
+          <input id="input-year">
+        </div>
+      </section>
+
+      <section id="calculate-btn-section">
+        <button id="calculate-btn">
+          <img src="./assets/images/icon-arrow.svg">
+        </button>
+      </section>
+
+      <section>
+        <p class="display">
+          <span id="display-year">__</span> years
+        </p>
+        <p class="display">
+          <span id="display-month">__</span> months
+        </p>
+        <p class="display">
+          <span id="display-day">__</span> days
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
